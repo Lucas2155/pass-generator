@@ -1,0 +1,28 @@
+{
+  "name": "pass-generator",
+  "version": "1.0.0",
+  "description": "Pass geenerator test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucas2155/pass-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lucas2155/pass-generator/issues"
+  },
+  "homepage": "https://github.com/Lucas2155/pass-generator#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "http": "^0.0.1-security",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.20"
+  }
+}
